@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Gutenberg", "Gutenberg\Gutenberg.fsproj", "{8354D1F1-3425-4D0A-88CA-810FF26AE518}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Gutenberg.Tests", "Gutenberg.Tests\Gutenberg.Tests.fsproj", "{338FDEB5-124B-4FB3-856F-06073D8B0EF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{D3F1687A-4D61-4766-A43B-35EAE0CA1D43}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8354D1F1-3425-4D0A-88CA-810FF26AE518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8354D1F1-3425-4D0A-88CA-810FF26AE518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8354D1F1-3425-4D0A-88CA-810FF26AE518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8354D1F1-3425-4D0A-88CA-810FF26AE518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{338FDEB5-124B-4FB3-856F-06073D8B0EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{338FDEB5-124B-4FB3-856F-06073D8B0EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{338FDEB5-124B-4FB3-856F-06073D8B0EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{338FDEB5-124B-4FB3-856F-06073D8B0EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
